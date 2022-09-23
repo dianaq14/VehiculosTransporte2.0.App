@@ -1,0 +1,22 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.DetallesMecanicosModel
+@{
+}
+<h1>Detalles del Mecanico</h1>
+
+<div>
+    ID: @Model.mecanico.Id
+</div>
+<div>
+    Nombre: @Model.mecanico.Nombres
+</div>
+<div>
+    Apellidos: @Model.mecanico.Apellidos
+</div>
+<div>
+    Correo: @Model.mecanico.Correo
+</div>
+<div>
+    Telefono: @Model.mecanico.Telefono
+</div>
+<a as-page="./ListaMecanicos"  class="btn-default">Lista Mecanicos</a>

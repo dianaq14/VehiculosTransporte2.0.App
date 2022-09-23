@@ -1,0 +1,22 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.ListaConductoresModel
+@{
+}
+<h1>Listado de conductores</h1>
+<table class="table">
+    @foreach (var conductor in Model.listaConductores)
+    {
+        <tr>
+            <td>@conductor.Id</td>
+            <td>@conductor.Nombres</td>
+            <td>@conductor.Apellidos</td>
+
+            <td>
+                <a class ="btn btn-primary table-btn" asp-page="./DetallesConductores"asp-route-conductorId="@conductor.Id">
+                <i class="fas fa-info-circle"></i>
+                Detalle Conductor
+                </a>
+            </td>
+        </tr>
+    }
+</table>

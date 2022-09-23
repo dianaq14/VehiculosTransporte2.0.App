@@ -1,0 +1,22 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.DetallesConductoresModel
+@{
+}
+<h1> Detalles Conductores</h1>
+
+<div>
+    Id: @Model.Conductor.Id
+</div>
+<div>
+    Nombres: @Model.Conductor.Nombres
+</div>
+<div>
+    Apellidos: @Model.Conductor.Apellidos
+</div>
+<div>
+    Correo: @Model.Conductor.Correo
+</div>
+<div>
+    Telefono: @Model.Conductor.Telefono
+</div>
+<a asp-page="./ListaConductores" class="btn-defaulf">Lista De Conductores</a>

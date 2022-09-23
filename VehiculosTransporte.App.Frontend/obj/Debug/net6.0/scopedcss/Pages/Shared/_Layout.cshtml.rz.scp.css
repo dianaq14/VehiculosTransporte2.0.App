@@ -1,0 +1,117 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+*[b-ldjkyqtcqz]{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body[b-ldjkyqtcqz]{
+  font-family: 'Poppins', sans-serif;
+  background: #385ea5;
+  background-color: #e8e8e8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23c1aee0' fill-opacity='0.21'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+a.navbar-brand[b-ldjkyqtcqz] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ldjkyqtcqz] {
+  color: #1b6ec2;
+}
+
+.btn-primary[b-ldjkyqtcqz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ldjkyqtcqz], .nav-pills .show > .nav-link[b-ldjkyqtcqz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.navbar-nav[b-ldjkyqtcqz]{
+  list-style: none;
+  padding: 0;
+  background-color: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.menu .nav-item .nav-link[b-ldjkyqtcqz]{
+  text-decoration: none;
+  color: rgb(38, 21, 138);
+  padding: 20px;
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.menu .nav-item[b-ldjkyqtcqz]{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu .nav-link :hover[b-ldjkyqtcqz]{
+  background: #ef8354;
+}
+
+.border-top[b-ldjkyqtcqz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ldjkyqtcqz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+.parrafo[b-ldjkyqtcqz]{
+  width: 90%;
+  margin: auto;
+}
+
+.social[b-ldjkyqtcqz]{
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social p[b-ldjkyqtcqz]{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.links[b-ldjkyqtcqz]{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a[b-ldjkyqtcqz]{
+  margin: 0 30px;
+}
+
+.links a i[b-ldjkyqtcqz]{
+  font-size: 3rem;
+}
+
+.box-shadow[b-ldjkyqtcqz] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ldjkyqtcqz] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ldjkyqtcqz] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

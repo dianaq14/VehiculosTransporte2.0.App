@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Vehiculos de Transporte App</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/VehiculosTransporte.App.Front.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Vehiculos de Transporte App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Inicio</a>
+                        </li>
+                             <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Servicios">Sevicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="Conductores/ListaConductores">Conductores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Informacion_Vehiculos">Vehiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Mecanicos/Mecanicos">Mecanicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Conductor/Conductor">Dueños</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="Acceder">Acceder</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="parrafo">
+        <header class="showcase">
+            <h2 style="text-align: center;">Quienes somos?</h2>
+            <p>Somos una compañía que brinda un servicio de transporte traslado de personal desde y hacia su empresa,
+                rutas de colegios, o
+                paseos familaires
+                garantizando cumplimiento de los horarios establecidos, comodidad con nuestro parque automotor
+                conformado
+                por buses y microbuses ideales para sus necesidades, seguridad en cada ruta de destino.</p>
+        </header>
+
+        <nav class="nav-main">
+            <div class="slider">
+                <img src="/imagenes/bus.jpg " class="img-fluid" alt="Responsive image">
+            </div>
+        </nav>
+        <div class="piefoto">
+            <p style="text-align: center;">Disfruta tu tranquilidad, deja tu seguridad en nuestras manos</p>
+        </div>
+
+        <section class="social">
+            <p>Siguenos</p>
+            <div class="links">
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </section>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - VehiculosTransporte.App.Front - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
