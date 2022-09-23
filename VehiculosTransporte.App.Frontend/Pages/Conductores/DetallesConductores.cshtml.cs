@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using VehiculosTransporte.App.Persistencia;
@@ -7,16 +8,16 @@ namespace VehiculosTransporte.App.Frontend.Pages
 {
     public class DetallesConductoresModel : PageModel
     {
-        private readonly IRepositorioConductor repositorioConductor;
-        public Conductor Conductor { get; set; }
-        public DetallesConductoresModel(IRepositorioConductor repositorioConductor)
+        private readonly IRepositorioConductor _repoConductor;
+        public Conductor conductor { get; set; }
+        public DetallesConductoresModel()
         {
-            this.repositorioConductor = repositorioConductor;
+            this._repoConductor = new RepositorioConductor(new Persistencia.AppContext());
         }
         public IActionResult OnGet(int conductorId)
         {
-            Conductor = repositorioConductor.GetConductor(conductorId);
-            if (Conductor == null)
+            conductor = _repoConductor.GetConductor(conductorId);
+            if (conductor == null)
             {
                 return RedirectToPage("./NotFound");
             }

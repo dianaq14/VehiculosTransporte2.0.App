@@ -2,7 +2,7 @@
 @model VehiculosTransporte.App.Frontend.Pages.ListaConductoresModel
 @{
 }
-<h1>Listado de conductores</h1>
+<h1>Lista de conductores</h1>
 <table class="table">
     @foreach (var conductor in Model.listaConductores)
     {
@@ -15,6 +15,18 @@
                 <a class ="btn btn-primary table-btn" asp-page="./DetallesConductores"asp-route-conductorId="@conductor.Id">
                 <i class="fas fa-info-circle"></i>
                 Detalle Conductor
+                </a>
+            </td>
+                <td>
+                <a class ="btn btn-primary table-btn" asp-page="./EditarConductores"asp-route-conductorId="@conductor.Id">
+                <i class="fas fa-info-circle"></i>
+                Editar Conductor
+                </a>
+            </td>
+            <td>
+                <a class ="btn btn-primary table-btn" asp-page="./AgregarConductores"asp-route-conductorId="@conductor.Id">
+                <i class="fas fa-info-circle"></i>
+                Agregar Conductor
                 </a>
             </td>
         </tr>
