@@ -12,6 +12,7 @@ namespace VehiculosTransporte.App.Consola
         private static IRepositorioVehiculo _repoVehiculo =new RepositorioVehiculo(new Persistencia.AppContext());
         private static IRepositorioDuenio _repoDuenio =new RepositorioDuenio(new Persistencia.AppContext());
         private static IRepositorioMecanico _repoMecanico =new RepositorioMecanico(new Persistencia.AppContext());
+        private static IRepositorioServicioTransporte _repoServicios = new RepositorioServicioTransporte(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
@@ -88,10 +89,10 @@ namespace VehiculosTransporte.App.Consola
         {
             var duenio = new Duenio
             {
-                Nombres="Pablo",
-                Apellidos="Giraldo",
-                Correo="pablo12giraldo@gmail.com",
-                Telefono="3217654103"
+                Nombres="Taylor",
+                Apellidos="Swift",
+                Correo="Tswift13@gmail.com",
+                Telefono="15217654103"
             };
             _repoDuenio.AddDuenio(duenio);
         }
@@ -101,7 +102,25 @@ namespace VehiculosTransporte.App.Consola
              Console.WriteLine(duenio.Nombres+" "+duenio.Apellidos);
         }
 
-       
+        private static void AddVehiculo()
+        {
+            var vehiculo = new Vehiculo
+            {
+                placa="AJ13",
+                marca="chevrolet",
+                modelo_año="2020",
+                CapacidadPasajeros="30",
+                tipo= "bus", 
+    
+            };
+            _repoVehiculo.AddVehiculo (vehiculo);
+        }
+        private static void GetVehiculo(int idVehiculo)
+        {
+            var vehiculo= _repoVehiculo.GetVehiculo(idVehiculo);
+             Console.WriteLine(vehiculo.placa+" "+vehiculo.marca +" "+vehiculo.Duenio+" "+vehiculo.Mecanico);
+        }
+
    
     }
 }

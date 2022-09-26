@@ -1,0 +1,76 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.RegistrarMecanicosModel
+@{
+      ViewData["Title"] = "Registrar Vehiculo";
+}
+<h1>Registro de Dueños</h1>
+<hr class="border border-primary border-3 opacity-75">
+<form method="post" class="card p-3">
+    <div class="row">
+        <div asp-validation-summary="All"></div>
+    </div>
+    <div class="form-group mb-0">
+        <p>
+            <label asp-for="NewDuenio.Id">Id:  </label>
+            <input type="text" asp-for="NewDuenio.Id" class="mr-5">
+            <span class="text-danger" asp-validation-for="NewDuenio.Id"></span>
+        </p>
+        <p>
+            <label asp-for="NewDuenio.Nombres">Nombres:  </label>
+            <input type="text" asp-for="NewDuenio.Nombres" class="mr-5">
+        </p>
+        <p>
+            <label asp-for="NewDuenio.Apellidos">Apellidos: </label>
+            <input type="text" asp-for="NewDuenio.Apellidos" class="mr-5">
+        </p>
+    
+        <p>
+            <label asp-for="NewDuenio.Correo">Correo: </label>
+            <input type="text" asp-for="NewDuenio.Correo" class="mr-5">
+        </p>
+        <p>
+            <label asp-for="NewDuenio.Telefono">Telefono: </label>
+            <input type="text" asp-for="NewDuenio.Telefono" class="mr-5">
+        </p>
+        <p>
+            <label asp-for="NewVehiculo.DuenioId">Dueño: </label>
+            <select asp-for="NewVehiculo.DuenioId" class="mr-5">
+                @foreach (var LPropietario in Model.ListaPropietario)
+                {
+                    <option value="@LPropietario.DuenioId">@LDuenio.Nombres @LDuenio.Apellidos</option>
+                }
+            </select>
+            @* <input type="text" asp-for="NewVehiculo.<DuenioId" class="mr-5"> *@
+        </p>
+        <p>
+            <label asp-for="NewVehiculo.ConductorId">Conductor: </label>
+            <select asp-for="NewVehiculo.ConductorId" class="mr-5">
+                @foreach (var LConductor in Model.ListaConductor)
+                {
+                    <option value="@LConductor.ConductorId">@LConductor.Nombres @LConductor.Apellidos</option>
+                }
+            </select>
+            @* <input type="text" asp-for="NewVehiculo.ConductorId" class="mr-5"> *@
+        </p>
+        <p>
+            <label asp-for="NewVehiculo.MecanicoId">Mecanico: </label>
+            <select asp-for="NewVehiculo.MecanicoId" class="mr-5">
+                @foreach (var LMecanico in Model.ListaMecanico)
+                {
+                    <option value="@LMecanico.MecanicoId">@LMecanico.Nombres @LMecanico.Apellidos</option>
+                }
+            </select>
+            @* <input type="text" asp-for="NewVehiculo.MecanicoId" class="mr-5"> *@
+        </p>
+
+
+        <button type="submit" class="btn btn-primary">Addicionar</button>
+    </div>
+</form>
+<br>
+@* @if(Model.existe==1)
+{
+    <h1>Ya existe un vehiculo con placa: @Model.NewVehiculo.Placa</h1>
+}
+<br> *@
+<a asp-page="./Vehiculos" class="btn-default">Lista de Mecanicos</a>

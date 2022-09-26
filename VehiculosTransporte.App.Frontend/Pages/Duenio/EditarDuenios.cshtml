@@ -1,0 +1,24 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.EditarDueniosModel
+@{
+    int duenioId = Model.duenio.Id;
+}
+<h2> Agregar o Editar Dueños</h2>
+
+<form method="post">
+    <div class="forms-group">
+        <input type="hidden" asp-for=" duenio.Id" />
+        <label asp-for="duenio.Id"></label>
+        <input asp-for="duenio.Id" class="form.contol">
+        <label asp-for="duenio.Nombres"></label> 
+        <input asp-for="duenio.Nombres" class="form.contol">
+        <label asp-for="duenio.Apellidos"></label> 
+        <input asp-for="duenio.Apellidos" class="form.contol">
+        <label asp-for="duenio.Correo"></label> 
+        <input asp-for="duenio.Correo" class="form.contol">
+
+        <button type="submit" class="btn btn-primary">Grabar</button>
+    </div>
+</form>
+
+<a asp-page="./listaDuenios" class="btn-default">Lista De Dueños</a>

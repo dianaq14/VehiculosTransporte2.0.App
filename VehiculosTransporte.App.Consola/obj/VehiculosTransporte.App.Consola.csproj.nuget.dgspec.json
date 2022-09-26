@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj": {}
+    "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj": {
+    "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj",
+        "projectUniqueName": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj",
         "projectName": "VehiculosTransporte.App.Consola",
-        "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\obj\\",
+        "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\VehiculosTransporte.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
-                "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj"
+              "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
+                "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj"
               },
-              "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj": {
-                "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj"
+              "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj": {
+                "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj"
               }
             }
           }
@@ -68,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
+    "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
+        "projectUniqueName": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
         "projectName": "VehiculosTransporte.App.Dominio",
-        "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\obj\\",
+        "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -121,21 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj": {
+    "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj",
         "projectName": "VehiculosTransporte.App.Persistencia",
-        "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\obj\\",
+        "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\VehiculosTransporte.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -147,8 +147,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
-                "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj"
+              "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj": {
+                "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj"
               }
             }
           }
@@ -200,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

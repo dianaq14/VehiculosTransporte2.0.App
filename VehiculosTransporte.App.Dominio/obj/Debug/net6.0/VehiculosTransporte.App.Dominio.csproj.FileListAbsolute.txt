@@ -10,3 +10,15 @@ C:\VehiculosTransporte2.0\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dom
 C:\VehiculosTransporte2.0\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\refint\VehiculosTransporte.App.Dominio.dll
 C:\VehiculosTransporte2.0\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.pdb
 C:\VehiculosTransporte2.0\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\ref\VehiculosTransporte.App.Dominio.dll
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\bin\Debug\net6.0\VehiculosTransporte.App.Dominio.deps.json
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\bin\Debug\net6.0\VehiculosTransporte.App.Dominio.dll
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\bin\Debug\net6.0\VehiculosTransporte.App.Dominio.pdb
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.csproj.AssemblyReference.cache
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.AssemblyInfoInputs.cache
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.AssemblyInfo.cs
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.csproj.CoreCompileInputs.cache
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.dll
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\refint\VehiculosTransporte.App.Dominio.dll
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\VehiculosTransporte.App.Dominio.pdb
+C:\VehiculosTransporte2.0.App\VehiculosTransporte.App.Dominio\obj\Debug\net6.0\ref\VehiculosTransporte.App.Dominio.dll

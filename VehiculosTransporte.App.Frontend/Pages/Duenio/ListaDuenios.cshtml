@@ -1,0 +1,30 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.ListaDueniosModel
+@{
+}
+
+<h1> Lista De Dueños</h1>
+<table class="tabla">
+    @foreach (var duenio in Model.listaDuenios)
+    {
+        <tr>
+            <td>@duenio.Id </td>
+            <td>@duenio.Nombres</td>
+            <td>@duenio.Apellidos</td>
+            <td>@duenio.Correo</td>
+            
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesDuenios" asp-route-duenioId="@duenio.Id">
+                Detalle Duenio></a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarDuenios" asp-route-duenioId="@duenio.Id">
+                Editar Duenio></a>
+            </td>
+        </tr>
+        
+    }
+
+</table>

@@ -12,7 +12,7 @@ namespace VehiculosTransporte.App.Frontend.Pages
         public DetallesMecanicosModel(){
             this._RepoMecanico = new RepositorioMecanico(new Persistencia.AppContext());
         }
-        public IActionResult ONGET(int MecanicoID)
+        public IActionResult OnGet(int MecanicoID)
         {
             mecanico = _RepoMecanico.GetMecanico(MecanicoID);
             if(mecanico == null)

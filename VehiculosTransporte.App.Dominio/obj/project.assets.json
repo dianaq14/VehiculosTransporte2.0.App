@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jorge\\.nuget\\packages\\": {}
+    "C:\\Users\\Diana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
+      "projectUniqueName": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
       "projectName": "VehiculosTransporte.App.Dominio",
-      "projectPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\VehiculosTransporte2.0\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\obj\\",
+      "projectPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\VehiculosTransporte.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+      "outputPath": "C:\\VehiculosTransporte2.0.App\\VehiculosTransporte.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

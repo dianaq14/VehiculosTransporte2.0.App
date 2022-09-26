@@ -1,0 +1,21 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.ListaMecanicosModel
+@{
+}
+<h1>Listado Servicios De Transporte </h1>
+<table class="table">
+    @foreach (var servicioTransporte in Model.listaServicios)
+    {
+        <tr>
+            <td>@servicios.Vehiculo </td>
+            <td>@servicios.Recorrido </td>
+            <td>@servicios.FechaServicio </td>
+            <td>@servicios.Cliente </td>
+        
+            <td>
+                <a class="btn btn-primary tabla-btn" asp-page="./DetallesServicio"asp-route-Detalles= "@servicios.Id"></a>
+            </td>
+        
+        </tr>
+    }
+</table>

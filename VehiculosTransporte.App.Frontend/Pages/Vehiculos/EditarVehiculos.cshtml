@@ -1,0 +1,24 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.EditarVehiculosModel
+@{
+
+}
+<h2> Agregar o Editar Vehiculo</h2>
+
+<form method="post">
+    <div class="forms-group">
+        <input type="hidden" asp-for=" vehiculo.Id" />
+        <label asp-for="vehiculo.Id"></label>
+        <input asp-for="vehiculo.Id" class="form.contol">
+        <label asp-for="vehiculo.placa"></label> 
+        <input asp-for="vehiculo.placa" class="form.contol">
+        <label asp-for="vehiculo.marca"></label> 
+        <input asp-for="vehiculo.modelo_año" class="form.contol">
+        <label asp-for="vehiculo.tipo"></label> 
+        <input asp-for="vehiculo.tipo" class="form.contol">
+
+        <button type="submit" class="btn btn-primary">Grabar</button>
+    </div>
+</form>
+
+<a asp-page="./listaVehiculos" class="btn-default">Lista De Dueños</a>

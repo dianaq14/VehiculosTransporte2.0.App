@@ -1,0 +1,59 @@
+﻿@page
+@model VehiculosTransporte.App.Frontend.Pages.ListaVehiculosModel
+@{
+     ViewData["Title"] = "Lista de Vehiculos";
+}
+<h1>Lista de Vehiculos  🚌🚕 </h1>
+<a asp-page="./RegVehiculos" class="btn btn-primary">Registrar Vehiculo</a>
+<br>
+<hr class="border border-primary border-3 opacity-75">
+<form method="get">
+    <div class="form-group">
+        <p>
+            Vehiculo: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtrar" class="btn btn-primary"/>
+        </p>
+    </div>
+</form>
+
+<hr class="border border-primary border-3 opacity-75">
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">placa</th>
+            <th scope="col">marca</th>
+            <th scope="col">modelo</th>
+            <th scope="col">Capacidad</th>
+            <th scope="col">tipo</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Borrar</th>
+        </tr>
+    </thead>
+    @foreach (var vvehiculo in Model.ListaVehiculos)
+    {
+        <tr>
+            <td>@vvehiculo.placa</td>
+            <td>@vvehiculo.marca</td>
+            <td>@vvehiculo.modelo_año</td>
+            <td>@vvehiculo.CapacidadPasajeros</td>
+            <td>@vvehiculo.tipo</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditVehiculos" asp-route-VehiculoId="@vvehiculo.VehiculoId">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                <form method="post" asp-page-handler="Delete" asp-route-id="@vvehiculo.VehiculoId">
+                    <button class="btn btn-danger">Borrar</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+@if(Model.ListaVehiculos.Count()==0)
+{
+    <h1>No hay Vehiculos registrados</h1>
+}
